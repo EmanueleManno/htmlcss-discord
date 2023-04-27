@@ -7,24 +7,64 @@
 
 /*INFORMAZIONI SUL BODY*/
 body {
-    font-family: sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /*CONTAINER DELLA PAGINA*/
 .container {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /*HEADER DELLA PAGINA*/
 header {
     background-image: url(img/jumbo.png);
-    height: 500px;
-    background-size: cover;
+    height: 700px;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
-.header-container {
-    border: 2px;
-    border-color: black;
+/*CONTENUTO DELL'HEADER*/
+.navbar {
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.navbar > * {
+    padding: 10px;
+    flex-basis: 20%;
+}
+
+.navbar-logo {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.title-logo {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.navbar-menu {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-btn {
+    text-align: right;
+}
+
+.btn-style {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline;
+}
