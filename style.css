@@ -238,6 +238,7 @@ footer {
 
 .footer-left {
     flex-basis: 30%;
+    padding-left: 20px;
 }
 
 .footer-right {
@@ -251,6 +252,30 @@ footer {
 
 .footer-column {
     flex-basis: 25%;
+    line-height: 30px;
+}
+
+.footer-slogan {
+    font-size: 35px;
+    color:blueviolet;
+    max-width: 70%;
+}
+
+.nation {
+    width: 5%;
+    height: 5%;
+}
+
+.select-language {
+    margin: 10px 0;
+}
+
+.social-network > .fa-brands {
+    padding: 10px;
+}
+
+.footer-title {
+    color:blueviolet
 }
 
 .footer-bottom {
