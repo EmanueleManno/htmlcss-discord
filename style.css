@@ -256,4 +256,13 @@ footer {
 .footer-bottom {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+}
+
+.footer-button {
+    background-color: lightskyblue;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
 }
