@@ -171,6 +171,7 @@ section {
     background-image: url(img/item3.svg);
 }
 
+/*SPECIFICHE PER QUARTA SEZIONE*/
 .full-column {
     height: 100%;
     display: flex;
@@ -214,4 +215,45 @@ h3 {
     font-size: 20px;
     padding: 10px;
     background-image: url(img/stars.svg);
+}
+
+/*FOOTER*/
+footer {
+    color:white;
+}
+
+.footer-container {
+    background-color: black;
+    height: 500px;
+    padding: 20px 0;
+}
+
+.footer-top {
+    height: 400px;
+    display: flex;
+    border-bottom: 1px solid purple;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    flex-basis: 30%;
+}
+
+.footer-right {
+    flex-basis: 70%;
+}
+
+.footer-nav {
+    display: flex;
+    height: 100%;
+}
+
+.footer-column {
+    flex-basis: 25%;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
 }
