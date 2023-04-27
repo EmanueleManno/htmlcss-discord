@@ -162,3 +162,11 @@ section {
     align-items: center;
     line-height: 30px;
 }
+
+.col2 {
+    background-image: url(img/item2.svg);
+}
+
+.col3 {
+    background-image: url(img/item3.svg);
+}
