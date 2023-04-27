@@ -19,7 +19,7 @@ body {
 /*HEADER DELLA PAGINA*/
 header {
     background-image: url(img/jumbo.png);
-    height: 700px;
+    height: 750px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -67,4 +67,51 @@ header {
     border-radius: 15px;
     padding: 10px;
     display: inline;
+}
+
+/*SEZIONE DEL JUMBOTRON*/
+.jumbotron {
+    height: 300px;
+    padding: 30px;
+}
+
+.jumbotron .jumbo-content {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.jumbo-title {
+    color: white;
+    font-size: 50px;
+}
+
+.jumbo-subtitle {
+    color: white;
+    margin-top: 10px;
+}
+
+.jumbo-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.jumbo-first-btn {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.jumbo-second-btn {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
 }
