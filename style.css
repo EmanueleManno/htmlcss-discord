@@ -291,3 +291,14 @@ footer {
     display: inline-block;
     align-items: center;
 }
+
+.wave {
+    display: block;
+    width: 100%;
+    color: lightgray;
+    opacity: 0.17;
+}
+
+.rotate {
+    rotate: 0.5turn;
+}
