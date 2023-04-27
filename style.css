@@ -118,7 +118,7 @@ header {
 
 /*MAIN*/
 section {
-    height: 500px;
+    height: 600px;
     padding: 50px 0;
 }
 
@@ -169,4 +169,49 @@ section {
 
 .col3 {
     background-image: url(img/item3.svg);
+}
+
+.full-column {
+    height: 100%;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.bigsection {
+    height: 1000px;
+}
+
+.btn-section4 {
+    background-color: lightskyblue;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+    max-width: 800px;
+    align-items: center;
+}
+
+p {
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    line-height: 20px;
+    display: inline;
+    max-width: 800px;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 10px;
+    background-image: url(img/stars.svg);
 }
