@@ -19,7 +19,7 @@ body {
 /*HEADER DELLA PAGINA*/
 header {
     background-image: url(img/jumbo.png);
-    height: 750px;
+    height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -114,4 +114,51 @@ header {
     background-color: black;
     border-radius: 15px;
     padding: 10px;
+}
+
+/*MAIN*/
+section {
+    height: 500px;
+    padding: 50px 0;
+}
+
+.section-container {
+    display: flex;
+    height: 100%;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: lightgray;
+}
+
+.large-column {
+    flex-basis: 60%;
+    background-image: url(img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.small-column {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column-title {
+    font-size: 50px;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.column-subtitle {
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    line-height: 30px;
 }
