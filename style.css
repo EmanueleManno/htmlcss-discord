@@ -5,3 +5,26 @@
     box-sizing: border-box;
 }
 
+/*INFORMAZIONI SUL BODY*/
+body {
+    font-family: sans-serif;
+}
+
+/*CONTAINER DELLA PAGINA*/
+.container {
+    margin: 0 auto;
+}
+
+/*HEADER DELLA PAGINA*/
+header {
+    background-image: url(img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-container {
+    border: 2px;
+    border-color: black;
+}
+
